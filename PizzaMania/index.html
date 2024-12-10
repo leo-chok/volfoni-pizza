@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+  <!--=============== REMIXICONS ===============-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css" />
+
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Responsive pizza website - leo-chok</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <img src="assets/img/logo-pizza.svg" alt="image" />
+        Pizza</a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li>
+            <a href="#home" class="nav__link active-link">Menu</a>
+          </li>
+          <li>
+            <a href="#about" class="nav__link">Notre équipe</a>
+          </li>
+          <li>
+            <a href="#popular" class="nav__link">Best</a>
+          </li>
+          <li>
+            <a href="#products" class="nav__link">Produits</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+
+        <!-- Close button -->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-large-line"></i>
+        </div>
+      </div>
+
+      <!-- Toggle button -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="ri-apps-2-fill"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+    <!--==================== HOME ====================-->
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__data">
+          <h1 class="home__title">
+            Volfoni! <br />
+            Nos délicieuses Pizzas
+          </h1>
+          <p class="home__description">
+            Plongez dans l’Italie optimiste des années 50,
+            Volfoni est le lieu où il fait bon vivre. Une expérience conviviale autour de la cucina tradizionale
+            italiana et d’Aperitvo. Voyagez en Italie le temps d’un repas!
+          </p>
+          <img src="assets/img/sticker-pizza.svg" alt="image" class="home__sticker-1" />
+          <img src="assets/img/sticker-leaf.svg" alt="image" class="home__sticker-2" />
+          <a href="#products" class="button">Commander</a>
+        </div>
+        <div class="home__images">
+          <img src="assets/img/home-pizza.png" alt="image" class="home__pizza" />
+          <img src="assets/img/home-board.png" alt="image" class="home__board" />
+          <img src="assets/img/home-leaf-1.png" alt="image" class="home__ingredient home__leaf-1" />
+          <img src="assets/img/home-pepperoni.png" alt="image" class="home__ingredient home__pepperoni" />
+          <img src="assets/img/home-mushroom.png" alt="image" class="home__ingredient home__mushroom" />
+          <img src="assets/img/home-olive.png" alt="image" class="home__ingredient home__olive" />
+          <img src="assets/img/home-leaf-2.png" alt="image" class="home__ingredient home__leaf-2" />
+          <img src="assets/img/home-tomato.png" alt="image" class="home__ingredient home__tomato" />
+        </div>
+      </div>
+    </section>
+
+    <!--==================== ABOUT ====================-->
+    <section class="about section" id="about">
+      <div class="about__container container grid">
+        <div class="about__data">
+          <h2 class="section__title">
+            Découvrez l'univers <br>
+            Volfoni !
+          </h2>
+          <p class="about__description">
+            Pour pouvoir vous proposer des recettes de grande qualité et respecter le savoir-faire italien, nous
+            importons l’ensemble de nos fromages et de charcuteries directement d’Italie. Ainsi notre Burrata est
+            confectionnée dans la région des Pouilles et nombreux sont nos ingrédients bénéficiant de l’appellation DOP
+            (Denominazione di Origine Protetta – l’équivalent de notre AOP)
+          </p>
+          <a href="#popular" class="button">Le Migliori Pizze</a>
+          <img src="assets/img/sticker-cheese.svg" alt="image" class="about__sticker" />
+        </div>
+
+        <img src="assets/img/about-img.png" alt="image" class="about__img" />
+      </div>
+    </section>
+
+    <!--==================== POPULAR ====================-->
+    <section class="popular section" id="popular">
+      <div class="div popular__container container grid">
+        <div class="popular__data">
+          <h2 class="section__title">Découvrez<br> les Best-Sellers</h2>
+          <p class="popular__description">
+            Choisissez les saveurs les mieux préparées et les plus délicieuses. Nous avons rassemblé quelques recettes
+            populaires du monde entier pour que vous puissiez choisir votre préférée.
+          </p>
+        </div>
+
+        <div class="popular__swiper swiper">
+          <img src="assets/img/popular-dish.png" alt="image" class="popular__dish" />
+
+          <div class="swiper-wrapper">
+
+
+
+            <article class="popular__card swiper-slide">
+              <img src="assets/img/popular-1.png" alt="image" class="popular__img" />
+              <h3 class="popular__title">Pizza Margherita</h3>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <img src="assets/img/popular-2.png" alt="image" class="popular__img" />
+              <h3 class="popular__title">Pizza Champignons</h3>
+            </article>
+
+            <article class="popular__card swiper-slide">
+              <img src="assets/img/popular-3.png" alt="image" class="popular__img" />
+              <h3 class="popular__title">Pizza Pepperoni</h3>
+            </article>
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--==================== RECIPE ====================-->
+    <section class="recipe section">
+      <h2 class="section__title">
+        Ingrédients <br />
+        Frais & Naturels
+      </h2>
+
+      <div class="div recipe__container container grid">
+        <div class="div recipe__list grid">
+          <div class="div recipe__ingredient">
+            <img src="assets/img/recipe-flour.png" alt="image" class="recipe__image" />
+            <div>
+              <h3 class="recipe__name">Farine</h3>
+              <p class="recipe__description">
+                Notre farine est élaborée grâce aux meilleurs champs de blé du pays Italien.
+              </p>
+            </div>
+          </div>
+
+          <div class="div recipe__ingredient">
+            <img src="assets/img/recipe-cheese.png" alt="image" class="recipe__image" />
+            <div>
+              <h3 class="recipe__name">Fromage</h3>
+              <p class="recipe__description">
+                Laissez-vous tenter par le fromage pour un avenir en bonne santé.
+              </p>
+            </div>
+          </div>
+
+          <div class="div recipe__ingredient">
+            <img src="assets/img/recipe-sauces.png" alt="image" class="recipe__image" />
+            <div>
+              <h3 class="recipe__name">Sauces</h3>
+              <p class="recipe__description">
+                Ajoutez un peu de salsa dans votre vie, elle n'en sera que meilleure !
+              </p>
+            </div>
+          </div>
+
+          <div class="div recipe__ingredient">
+            <img src="assets/img/recipe-tomato.png" alt="image" class="recipe__image" />
+            <div>
+              <h3 class="recipe__name">Légumes</h3>
+              <p class="recipe__description">
+                Renouez le lien avec la nature.
+              </p>
+            </div>
+          </div>
+
+          <div class="div recipe__ingredient">
+            <img src="assets/img/recipe-meat.png" alt="image" class="recipe__image" />
+            <div>
+              <h3 class="recipe__name">Viandes</h3>
+              <p class="recipe__description">
+                Nous sélectionnons les meilleures viandes pour vous garantir une qualité incomparable !
+              </p>
+            </div>
+          </div>
+        </div>
+        <img src="assets/img/recipe-img.png" alt="image" class="recipe__img" />
+      </div>
+    </section>
+
+    <!--==================== PRODUCTS ====================-->
+    <section class="products section" id="products">
+      <h2 class="section__title">
+        Des Pizzas <br>
+        de toutes les Saveurs !
+      </h2>
+      *
+      <div class="products__container container grid">
+        <article class="products__card">
+          <img src="assets/img/product-1.png" alt="image" class="products__img" />
+          <h3 class="products__name">Pizza<br>Végétarienne</h3>
+          <span class="products__price">15€</span>
+          <button class="products__button">
+            <i class="ri-shopping-bag-3-fill"></i>
+          </button>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/product-2.png" alt="image" class="products__img" />
+          <h3 class="products__name">Pizza<br>Pepperoni</h3>
+          <span class="products__price">10€</span>
+          <button class="products__button">
+            <i class="ri-shopping-bag-3-fill"></i>
+          </button>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/product-3.png" alt="image" class="products__img" />
+          <h3 class="products__name">Pizza<br>Margherita</h3>
+          <span class="products__price">12€</span>
+          <button class="products__button">
+            <i class="ri-shopping-bag-3-fill"></i>
+          </button>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/product-4.png" alt="image" class="products__img" />
+          <h3 class="products__name">Pizza<br>Champignons</h3>
+          <span class="products__price">17€</span>
+          <button class="products__button">
+            <i class="ri-shopping-bag-3-fill"></i>
+          </button>
+        </article>
+
+        <article class="products__card">
+          <img src="assets/img/product-5.png" alt="image" class="products__img" />
+          <h3 class="products__name">Pizza<br>Italienne</h3>
+          <span class="products__price">18€</span>
+          <button class="products__button">
+            <i class="ri-shopping-bag-3-fill"></i>
+          </button>
+        </article>
+      </div>
+    </section>
+
+    <!--==================== CONTACT ====================-->
+    <section class="contact section" id="contact">
+      <div class="contact__container container grid">
+        <div class="contact__data">
+          <h2 class="section__title">Pour nous contacter</h2>
+          <div class="contact__info grid">
+            <div>
+              <h3 class="contact__title">Ecrivez-nous</h3>
+              <div class="contact__social">
+                <a href="https://www.whatsapp.com/?lang=fr_FR" target="_blank" class="contact__social-link">
+                  <i class="ri-whatsapp-fill"></i>
+                </a>
+                <a href="https://www.messenger.com/?locale=fr_FR" target="_blank" class="contact__social-link">
+                  <i class="ri-messenger-fill"></i>
+                </a>
+                <a href="https://web.telegram.org/k/" target="_blank" class="contact__social-link">
+                  <i class="ri-telegram-2-fill"></i>
+                </a>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="contact__title">Livraison / A emporter</h3>
+              <adress class="contact__adress">
+                +33 (0)3 20 35 31 87
+
+              </adress>
+            </div>
+
+            <div>
+              <h3 class="contact__title">Nous trouver</h3>
+              <adress class="contact__adress">
+                81 Av. Clément Ader, 59118 Wambrechies
+              </adress>
+              <a href="https://maps.app.goo.gl/tSbrjnfVRSkZaRER7" target="_blanck" class="contact__map">
+                <i class="ri-map-pin-fill"></i>
+                <span>Afficher sur la carte</span>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div class="contact__image">
+          <img src="assets/img/contact-img.png" alt="image" class="contact__img">
+        </div>
+
+        <img src="assets/img/sticker-tomato.svg" alt="image" class="contact__sticker-1">
+        <img src="assets/img/sticker-mushroom.svg" alt="image" class="contact__sticker-2">
+        <img src="assets/img/sticker-onion.svg" alt="image" class="contact__sticker-3">
+
+
+      </div>
+    </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__container container grid">
+      <a href="#" class="footer__logo">Pizza</a>
+
+      <div class="footer__content grid">
+
+        <div>
+          <h3 class="footer__title">Réseaux Sociaux</h3>
+
+          <div class="footer__social">
+            <a href="https://www.facebook.com/VolfoniWambrechies/" target="_blank" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+
+            <a href="https://www.instagram.com/volfoni_wambrechies/" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-fill"></i>
+            </a>
+
+            <a href="https://www.youtube.com/channel/UC1k5OvogNHTB3OizAPqaPqw" target="_blank"
+              class="footer__social-link">
+              <i class="ri-youtube-fill"></i>
+            </a>
+          </div>
+        </div>
+
+
+        <div>
+          <h3 class="footer__title">Moyens de Paiements</h3>
+          <div class="footer__pay">
+            <img src="assets/img/footer-card-1.png" alt="image" class="footer__pay-img">
+            <img src="assets/img/footer-card-2.png" alt="image" class="footer__pay-img">
+            <img src="assets/img/footer-card-3.png" alt="image" class="footer__pay-img">
+            <img src="assets/img/footer-card-4.png" alt="image" class="footer__pay-img">
+          </div>
+        </div>
+
+
+        <div>
+          <h3 class="footer__title">Abonnez-vous pour les Promos</h3>
+          <form action="" class="footer__form">
+            <input type="email" placeholder="Email" class="footer__input">
+            <button class="footer__button button">S'inscrire</button>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <div class="footer__policy">
+      <a href="#" class="footer__link">Conditions Générales</a>
+      <a href="#" class="footer__link">Politiques de Confidentialité</a>
+    </div>
+
+    <span class="footer__copy">
+      &#169; Tous droits réservés par leo-chok
+    </span>
+
+
+  </footer>
+
+  <!--========== SCROLL UP ==========-->
+  <a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-s-fill"></i>
+  </a>
+
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="assets/js/scrollreveal.min.js"></script>
+
+  <!--=============== SWIPER JS ===============-->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
